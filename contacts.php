@@ -26,7 +26,7 @@
   <div class="content">
     <div class="container_12">
       <div class="grid_6">
-        <h2>Find Us</h2>
+        <h2>Encuentranos</h2>
         <div class="map">
           <figure class="img_inner">
             <iframe src="http://maps.google.com/maps?q=-19.051554840529256,-65.26349336624672&hl=es;z=14&output=embed"></iframe>
@@ -34,19 +34,16 @@
           <address>
           <dl>
             <dt>
-              <p>The Company Name Inc.<br>
-                8901 Marmora Road,<br>
-                Glasgow, D04 89GR.</p>
+              <p> Nuestros Contactos: </p>
             </dt>
-            <dd><span>Freephone:</span>+1 800 559 6580</dd>
-            <dd><span>Telephone:</span>+1 800 603 6035</dd>
-            <dd><span>FAX:</span>+1 800 889 9898</dd>
+            <dd><span>Administradora:</span>+591 77748964</dd>
+            <dd><span>Otro Contacto:</span>+591 77748965</dd>
           </dl>
           </address>
         </div>
       </div>
       <div class="grid_5 prefix_1">
-        <h2>Contact Us</h2>
+        <h2>Contactanos</h2>
         <form id="form" action="#">
           <div class="success_wrapper">
             <div class="success">Contact form submitted!<br>
@@ -54,7 +51,7 @@
           </div>
           <fieldset>
             <label class="name">
-              <input type="text" value="Name:">
+              <input type="text" value="Nombre:">
               <br class="clear">
               <span class="error error-empty">*This is not a valid name.</span><span class="empty error-empty">*This field is required.</span> </label>
             <label class="email">
@@ -62,48 +59,24 @@
               <br class="clear">
               <span class="error error-empty">*This is not a valid email address.</span><span class="empty error-empty">*This field is required.</span> </label>
             <label class="phone">
-              <input type="tel" value="Phone:">
+              <input type="tel" value="Telefono:">
               <br class="clear">
               <span class="error error-empty">*This is not a valid phone number.</span><span class="empty error-empty">*This field is required.</span> </label>
             <label class="message">
-              <textarea>Message:</textarea>
+              <textarea>Mensaje:</textarea>
               <br class="clear">
               <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
             <div class="clear"></div>
-            <div class="btns"><a data-type="reset" class="btn">clear</a><a data-type="submit" class="btn">send</a>
+            <div class="btns"><a data-type="reset" class="btn">Borrar</a><a data-type="submit" class="btn">Enviar</a>
               <div class="clear"></div>
             </div>
           </fieldset>
         </form>
       </div>
       <div class="clear"></div>
-      <div class="bottom_block">
-        <div class="grid_6">
-          <h3>Follow Us</h3>
-          <div class="socials"> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
-          <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about-us.html">About Us</a></li>
-              <li><a href="menu.html">Menu</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="news.html">News</a></li>
-              <li class="current"><a href="contacts.html">Contacts</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="grid_6">
-          <h3>Email Updates</h3>
-          <p class="col1">Join our digital mailing list and get news<br>
-            deals and be first to know about events</p>
-          <form id="newsletter" action="#">
-            <div class="success">Your subscribe request has been sent!</div>
-            <label class="email">
-              <input type="email" value="Enter e-mail address" >
-              <a href="#" class="btn" data-type="submit">subscribe</a> <span class="error">*This is not a valid email address.</span> </label>
-          </form>
-        </div>
-      </div>
+
+      <?php include('Redes.php')?>
+
       <div class="clear"></div>
     </div>
   </div>

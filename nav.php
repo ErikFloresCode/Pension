@@ -11,7 +11,7 @@
                   <li><a href="#">Reservar</a></li>
                 </ul>
               </li>
-              <li><a href="menu.php">Menu</a></li>
+              <!-- <li><a href="menu.php">Menu</a></li> !-->
               <li><a href="contacts.php">Contactos</a></li>
             </ul>
           </nav>

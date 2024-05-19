@@ -28,7 +28,7 @@ body {
 	position:relative;
 	min-width:960px;
 	padding-top: 27px;
-	background: #a05d22;
+	background: #4B8019;
 
 }
 .ic {
@@ -107,7 +107,7 @@ a {
 }
 
 a:hover {
-	color: #ae8c47;
+	color: #4B8019;
 }
 
 a.btn {
@@ -122,7 +122,7 @@ a.btn {
 }
 
 a.btn:hover {
-	background: #ae8c47;
+	background: #4B8019;
 }
 
 a.btn.m1 {
@@ -300,7 +300,7 @@ header h1 a img {
 
 .carousel1 li .price {
 	display: inline-block;
-	background: #ae8c47;
+	background: #4B8019;
 	color: #fff;
 	min-width: 41px;
 	height: 38px;
@@ -400,7 +400,7 @@ header h1 a img {
 }
 
 .bottom_block nav li.current {
-	color: #ae8c47;
+	color: #4B8019;
 }
 
 

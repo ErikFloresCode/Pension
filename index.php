@@ -90,70 +90,53 @@ $(window).load(function () {
           <ul class="carousel1">
             <li>
               <div><img src="images/page1_img1.jpg" alt="">
-                <div class="col1 upp"> <a href="#">Lorem ipsum doamet consectet</a></div>
-                <span> Dorem ipsum dolor amet consectetur</span>
-                <div class="price">45$</div>
+                <div class="col1 upp"> <a href="#">Lunes</a></div>
+                <span> Sopa de Arroz y Segundo: Mondongo</span>
+                <div class="price">13 Bs</div>
               </div>
             </li>
             <li>
               <div><img src="images/page1_img2.jpg" alt="">
-                <div class="col1 upp"> <a href="#">Lorem ipsum doamet consectet</a></div>
-                <span> Dorem ipsum dolor amet consectetur</span>
-                <div class="price">45$</div>
+                <div class="col1 upp"> <a href="#">Martes</a></div>
+                <span> Sopa de mani y Segundo: Revuelto</span>
+                <div class="price">13 Bs</div>
               </div>
             </li>
             <li>
               <div><img src="images/page1_img3.jpg" alt="">
-                <div class="col1 upp"> <a href="#">Lorem ipsum doamet consectet</a></div>
-                <span> Dorem ipsum dolor amet consectetur</span>
-                <div class="price">45$</div>
+                <div class="col1 upp"> <a href="#">Miercoles</a></div>
+                <span>  Sopa de trigo y Segundo: Sajta con arroz</span>
+                <div class="price">13 Bs</div>
               </div>
             </li>
             <li>
               <div><img src="images/page1_img4.jpg" alt="">
-                <div class="col1 upp"> <a href="#">Lorem ipsum doamet consectet</a></div>
-                <span> Dorem ipsum dolor amet consectetur</span>
-                <div class="price">45$</div>
+                <div class="col1 upp"> <a href="#">Jueves</a></div>
+                <span> Sopa de fideo y Segundo: Pique Macho</span>
+                <div class="price">13 Bs</div>
               </div>
             </li>
             <li>
               <div><img src="images/page1_img3.jpg" alt="">
-                <div class="col1 upp"> <a href="#">Lorem ipsum doamet consectet</a></div>
-                <span> Dorem ipsum dolor amet consectetur</span>
-                <div class="price">45$</div>
+                <div class="col1 upp"> <a href="#">Viernes</a></div>
+                <span> Sopa de verduras y Segundo: Ckocko </span>
+                <div class="price">13 Bs</div>
+              </div>
+            </li>
+            <li>
+              <div><img src="images/page1_img3.jpg" alt="">
+                <div class="col1 upp"> <a href="#">Sabado</a></div>
+                <span> Sopa de maruchan y Segundo: Chorizo</span>
+                <div class="price">13 Bs</div>
               </div>
             </li>
           </ul>
         </div>
       </div>
       <div class="clear"></div>
-      <div class="bottom_block">
-        <div class="grid_6">
-          <h3>Follow Us</h3>
-          <div class="socials"> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
-          <nav>
-            <ul>
-              <li class="current"><a href="index.html">Home</a></li>
-              <li><a href="about-us.html">About Us</a></li>
-              <li><a href="menu.html">Menu</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="news.html">News</a></li>
-              <li><a href="contacts.html">Contacts</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="grid_6">
-          <h3>Email Updates</h3>
-          <p class="col1">Join our digital mailing list and get news<br>
-            deals and be first to know about events</p>
-          <form id="newsletter" action="#">
-            <div class="success">Your subscribe request has been sent!</div>
-            <label class="email">
-              <input type="email" value="Enter e-mail address" >
-              <a href="#" class="btn" data-type="submit">subscribe</a> <span class="error">*This is not a valid email address.</span> </label>
-          </form>
-        </div>
-      </div>
+
+      <?php include('Redes.php')?>
+
       <div class="clear"></div>
     </div>
   </div>
