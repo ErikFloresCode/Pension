@@ -6,9 +6,9 @@
           <nav>
             <ul class="sf-menu">
               <li ><a href="index.php">Inicio</a></li>
-              <li class="with_ul"><a href="about-us.php">Servicios</a>
+              <li class="with_ul"><a href="#">Servicios</a>
                 <ul>
-                  <li><a href="#">Reservar</a></li>
+                  <li><a href="reservas.php">Reservar</a></li>
                 </ul>
               </li>
               <!-- <li><a href="menu.php">Menu</a></li> !-->
