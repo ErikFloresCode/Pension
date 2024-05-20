@@ -1,0 +1,58 @@
+ul {
+  list-style-type: none; /* Elimina los puntos de la lista */
+  margin: 0; /* Elimina el margen por defecto */
+  padding: 0; /* Elimina el relleno por defecto */
+  overflow: hidden; /* Asegura que el contenido no desborde el contenedor */
+  background-color: #F0EEEE; /* Establece un color de fondo gris claro para la lista */
+}
+
+li {
+  float: left; /* Hace que los elementos de la lista se alineen horizontalmente */
+}
+
+li a, .dropbtn {
+  display: inline-block; /* Permite que los enlaces se comporten como elementos en línea pero con propiedades de bloque */
+  color: #2B2D30; /* Establece el color del texto en gris oscuro */
+  background-color: #F0EEEE; /* Establece el color de fondo en gris claro */
+  text-align: center; /* Centra el texto horizontalmente */
+  padding: 5px 16px; /* Añade relleno interno para dar espacio alrededor del texto */
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  border-radius: 10px;
+}
+
+li a:hover, .dropdown:hover {
+  background-color: #e9afac; /* Cambia el color de fondo a un tono más oscuro al pasar el ratón sobre el enlace o el botón desplegable */
+}
+
+li.dropdown {
+  display: inline-block; /* Permite que el elemento dropdown se comporte como un elemento en línea pero con propiedades de bloque */
+  border-radius: 10px;
+}
+
+.dropdown-content {
+  display: none; /* Oculta el contenido del desplegable por defecto */
+  position: absolute; /* Posiciona el contenido del desplegable de manera absoluta */
+  /*background-color: #e9afac; /* Establece el color de fondo del contenido desplegable */
+  min-width: 100px; /* Establece un ancho mínimo para el contenido desplegable */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Añade una sombra al contenido desplegable para darle un efecto de profundidad */
+  z-index: 1; /* Asegura que el contenido desplegable se muestre sobre otros elementos */
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  color: #2B2D30; /* Establece el color del texto en el contenido desplegable */
+  padding: 5px 16px; /* Añade relleno interno a los enlaces en el contenido desplegable */
+  text-decoration: none; /* Elimina el subrayado de los enlaces en el contenido desplegable */
+  display: block; /* Hace que los enlaces ocupen todo el ancho disponible */
+  text-align: center; /* Alinea el texto a la izquierda */
+  border-radius: 10px;
+}
+
+.dropdown-content a:hover {
+  background-color: #e9afac; /* Cambia el color de fondo cuando se pasa el ratón sobre los enlaces del contenido desplegable */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /* Muestra el contenido desplegable cuando se pasa el ratón sobre el dropdown */
+  transition: height 5s; /* Añade una transición de 5 segundos al cambiar la altura (aunque en este caso no se ve una altura específica que cambie) */
+}

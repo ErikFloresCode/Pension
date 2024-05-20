@@ -7,6 +7,7 @@
 <link rel="shortcut icon" href="images/favicon.ico">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="navbar.css">
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate-1.1.1.js"></script>
 <script src="js/superfish.js"></script>
@@ -67,17 +68,7 @@ $(window).load(function () {
   
   <?php include('nav.php'); ?>
 
-  <div class="slider-relative">
-    <div class="slider-block">
-      <div class="slider">
-        <ul class="items">
-          <li><img src="images/slide.jpg" alt=""></li>
-          <li><img src="images/slide1.jpg" alt=""></li>
-          <li class="mb0"><img src="images/slide2.jpg" alt=""></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  
   <div class="content page1">
     <div class="container_12">
       
