@@ -1,7 +1,7 @@
 <header>
     <div class="container_12">
       <div class="grid_12">
-        <h1><a href="index.php"><img src="images/logo.png" alt=""></a></h1>
+        <h1><a href="index.php"><img src="images/ud.png" alt=""></a></h1>
         <div class="menu_block">
           <nav>
             <ul class="sf-menu">
